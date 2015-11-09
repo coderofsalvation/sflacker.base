@@ -1,0 +1,26 @@
+{
+  "name": "sflacker.base",
+  "version": "1.0.1",
+  "description": "search filter and convert k-something",
+  "main": "index.js",
+  "dependencies": {
+    "ohmygraph": "^1.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "browser": "/bin/bash -c 'coffee -c *.coffee; browserify -r .:sflacker -r ohmygraph | uglifyjs -o sflacker.min.js'",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://coderofsalvation@github.com/coderofsalvation/sflacker.base.git"
+  },
+  "author": "coderofsalvation",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/sflacker.base/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/sflacker.base#readme"
+}
